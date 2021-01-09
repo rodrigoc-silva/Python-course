@@ -31,7 +31,7 @@ class KiloConverterGUI:
                                         command=self.convert)
                                         
         #create a Quit Button. When this button is clicked
-        #the rrot widget's destroy method called
+        #the root widget's destroy method called
         self.quit_button = tkinter.Button(self.main_window,
                                         text='Quit',
                                         command=self.main_window.destroy)
@@ -48,7 +48,7 @@ class KiloConverterGUI:
         tkinter.mainloop()
         
     
-    #do_something method is a callback function for the button
+    #convert method is a callback function for the button
     def convert(self):
         #get value entered by the user into the kilo_entry widget
         kilo = float(self.kilo_entry.get())
