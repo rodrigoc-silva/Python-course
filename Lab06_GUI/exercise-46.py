@@ -19,7 +19,7 @@ class TestAvg:
         # create and pack the widgets for test 1.
         self.test1_label = tkinter.Label(self.test1_frame,
                                         text='Enter the score for test 1:')
-        self.test1_entry = tkinter.Entry(sel.test1_frame,
+        self.test1_entry = tkinter.Entry(self.test1_frame,
                                         width=10)
         self.test1_label.pack(side='left')
         self.test1_entry.pack(side='left')
@@ -27,7 +27,7 @@ class TestAvg:
         # create and pack the widgets for test 2.
         self.test2_label = tkinter.Label(self.test2_frame,
                                         text='Enter the score for test 2:')
-        self.test2_entry = tkinter.Entry(sel.test2_frame,
+        self.test2_entry = tkinter.Entry(self.test2_frame,
                                         width=10)
         self.test2_label.pack(side='left')
         self.test2_entry.pack(side='left')
@@ -35,7 +35,7 @@ class TestAvg:
         # create and pack the widgets for test 3.
         self.test3_label = tkinter.Label(self.test3_frame,
                                         text='Enter the score for test 3:')
-        self.test3_entry = tkinter.Entry(sel.test3_frame,
+        self.test3_entry = tkinter.Entry(self.test3_frame,
                                         width=10)
         self.test3_label.pack(side='left')
         self.test3_entry.pack(side='left')
